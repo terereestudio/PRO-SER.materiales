@@ -1,0 +1,746 @@
+{
+  "_nota": "CATÁLOGO DE DEMOSTRACIÓN. Marca, productos, marcas comerciales y rendimientos son ficticios. Todos los precios: Consultar.",
+  "demo": true,
+  "rubros": [
+    {
+      "id": "obra-gruesa",
+      "nombre": "Obra gruesa",
+      "icono": "i-bolsa"
+    },
+    {
+      "id": "impermeabilizacion",
+      "nombre": "Impermeabilización",
+      "icono": "i-techo"
+    },
+    {
+      "id": "agua-cloaca",
+      "nombre": "Agua y cloaca",
+      "icono": "i-cano"
+    },
+    {
+      "id": "desagues",
+      "nombre": "Desagües",
+      "icono": "i-desague"
+    },
+    {
+      "id": "agua-fria-caliente",
+      "nombre": "Agua fría y caliente",
+      "icono": "i-termo"
+    },
+    {
+      "id": "gas",
+      "nombre": "Gas",
+      "icono": "i-llama"
+    },
+    {
+      "id": "pluviales",
+      "nombre": "Pluviales",
+      "icono": "i-lluvia"
+    },
+    {
+      "id": "incendio",
+      "nombre": "Incendio",
+      "icono": "i-matafuego"
+    },
+    {
+      "id": "tanques-bombas",
+      "nombre": "Tanques y bombas",
+      "icono": "i-tanque"
+    },
+    {
+      "id": "bano",
+      "nombre": "Baño",
+      "icono": "i-inodoro"
+    }
+  ],
+  "banner": {
+    "titulo": "Temporada de calor",
+    "texto": "Tanques de reserva y bombas para tener agua todo el verano.",
+    "rubro": "tanques-bombas",
+    "boton": "Ver tanques y bombas"
+  },
+  "productos": [
+    {
+      "id": "cemento-portland",
+      "nombre": "Cemento portland",
+      "marcas": [
+        "Basalto"
+      ],
+      "rubro": "obra-gruesa",
+      "img": "cemento-portland",
+      "desc": "Cemento en bolsa de 25 kg para hormigón y mampostería.",
+      "variantes": [
+        "Uso general · 25 kg",
+        "Alta resistencia · 25 kg",
+        "Fragüe rápido · 25 kg"
+      ]
+    },
+    {
+      "id": "cal-hidratada",
+      "nombre": "Cal aérea hidratada",
+      "marcas": [
+        "Basalto"
+      ],
+      "rubro": "obra-gruesa",
+      "img": "cal-hidratada",
+      "desc": "Para mampostería, revoques y terminaciones.",
+      "variantes": [
+        "25 kg"
+      ]
+    },
+    {
+      "id": "adhesivo-ceramicos",
+      "nombre": "Adhesivo para cerámicos",
+      "marcas": [
+        "Fragua"
+      ],
+      "rubro": "obra-gruesa",
+      "img": "adhesivo-ceramicos",
+      "desc": "Pegamento para cerámicos y porcellanatos.",
+      "variantes": [
+        "Bolsa 30 kg"
+      ],
+      "calculo": {
+        "unidad": "bolsa",
+        "unidades": "bolsas",
+        "rinde": [
+          5
+        ],
+        "desperdicio": 10
+      }
+    },
+    {
+      "id": "revoque-fino",
+      "nombre": "Revoque fino listo",
+      "marcas": [
+        "Fragua"
+      ],
+      "rubro": "obra-gruesa",
+      "img": "revoque-fino",
+      "desc": "Mezcla lista para terminaciones interiores y exteriores.",
+      "variantes": [
+        "Bolsa 25 kg"
+      ]
+    },
+    {
+      "id": "membrana-asfaltica",
+      "nombre": "Membrana asfáltica 4 mm",
+      "marcas": [
+        "Delta"
+      ],
+      "rubro": "impermeabilizacion",
+      "img": "membrana-asfaltica",
+      "desc": "Membrana en rollo para techos y terrazas.",
+      "variantes": [
+        "Rollo 10 m²"
+      ],
+      "calculo": {
+        "unidad": "rollo",
+        "unidades": "rollos",
+        "rinde": [
+          10
+        ],
+        "desperdicio": 10
+      }
+    },
+    {
+      "id": "membrana-aluminio",
+      "nombre": "Membrana con aluminio",
+      "marcas": [
+        "Delta"
+      ],
+      "rubro": "impermeabilizacion",
+      "img": "membrana-aluminio",
+      "desc": "Membrana reforzada con foil de aluminio.",
+      "variantes": [
+        "Rollo 10 m²"
+      ],
+      "calculo": {
+        "unidad": "rollo",
+        "unidades": "rollos",
+        "rinde": [
+          10
+        ],
+        "desperdicio": 10
+      }
+    },
+    {
+      "id": "membrana-liquida",
+      "nombre": "Membrana líquida acrílica",
+      "marcas": [
+        "Cúmulo"
+      ],
+      "rubro": "impermeabilizacion",
+      "img": "membrana-liquida",
+      "desc": "Impermeabilizante elastomérico para techos.",
+      "variantes": [
+        "4 kg",
+        "10 kg",
+        "20 kg"
+      ],
+      "calculo": {
+        "unidad": "balde",
+        "unidades": "baldes",
+        "rinde": [
+          4,
+          10,
+          20
+        ],
+        "desperdicio": 10
+      }
+    },
+    {
+      "id": "membrana-fibrada",
+      "nombre": "Membrana líquida fibrada",
+      "marcas": [
+        "Cúmulo"
+      ],
+      "rubro": "impermeabilizacion",
+      "img": "membrana-fibrada",
+      "desc": "Con fibras para techos con fisuras.",
+      "variantes": [
+        "Balde 20 kg"
+      ],
+      "calculo": {
+        "unidad": "balde",
+        "unidades": "baldes",
+        "rinde": [
+          20
+        ],
+        "desperdicio": 10
+      }
+    },
+    {
+      "id": "tubo-pvc-junta",
+      "nombre": "Tubo PVC junta elástica",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "agua-cloaca",
+      "img": "tubo-pvc-junta",
+      "desc": "Para redes de agua y cloaca.",
+      "variantes": [
+        "110 mm",
+        "160 mm",
+        "200 mm"
+      ],
+      "sello": "Sello IRAM"
+    },
+    {
+      "id": "cano-polietileno",
+      "nombre": "Caño de polietileno en rollo",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "agua-cloaca",
+      "img": "cano-polietileno",
+      "desc": "Para conexiones y redes de agua.",
+      "variantes": [
+        "25 mm",
+        "32 mm",
+        "40 mm"
+      ]
+    },
+    {
+      "id": "valvula-esclusa",
+      "nombre": "Válvula esclusa",
+      "marcas": [
+        "Aguavía"
+      ],
+      "rubro": "agua-cloaca",
+      "img": "valvula-esclusa",
+      "desc": "Para cortar y regular redes de agua.",
+      "variantes": [
+        "63 mm",
+        "110 mm"
+      ]
+    },
+    {
+      "id": "medidor-agua",
+      "nombre": "Medidor de agua",
+      "marcas": [
+        "Aguavía"
+      ],
+      "rubro": "agua-cloaca",
+      "img": "medidor-agua",
+      "desc": "Para conexiones domiciliarias.",
+      "variantes": []
+    },
+    {
+      "id": "cano-corrugado",
+      "nombre": "Caño corrugado",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "agua-cloaca",
+      "img": "cano-corrugado",
+      "desc": "Para cloaca y conducción pluvial.",
+      "variantes": []
+    },
+    {
+      "id": "cano-desague",
+      "nombre": "Caño de desagüe",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "desagues",
+      "img": "cano-desague",
+      "desc": "Sistema de desagües para obras y viviendas.",
+      "variantes": [
+        "40 mm",
+        "50 mm",
+        "63 mm",
+        "110 mm"
+      ]
+    },
+    {
+      "id": "accesorios-desague",
+      "nombre": "Accesorios de desagüe",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "desagues",
+      "img": "accesorios-desague",
+      "desc": "Codos, ramales y piletas de patio.",
+      "variantes": [
+        "Codo",
+        "Ramal",
+        "Pileta de patio"
+      ]
+    },
+    {
+      "id": "tubo-termofusion",
+      "nombre": "Tubo para termofusión",
+      "marcas": [
+        "Termia"
+      ],
+      "rubro": "agua-fria-caliente",
+      "img": "tubo-termofusion",
+      "desc": "Para agua fría y caliente.",
+      "variantes": [
+        "20 mm",
+        "25 mm",
+        "32 mm"
+      ]
+    },
+    {
+      "id": "accesorios-termofusion",
+      "nombre": "Accesorios para termofusión",
+      "marcas": [
+        "Termia"
+      ],
+      "rubro": "agua-fria-caliente",
+      "img": "accesorios-termofusion",
+      "desc": "Codos, tes, cuplas y llaves de paso.",
+      "variantes": [
+        "Codo",
+        "Te",
+        "Cupla",
+        "Llave de paso"
+      ]
+    },
+    {
+      "id": "tubo-gas",
+      "nombre": "Tubo para gas con alma metálica",
+      "marcas": [
+        "Termia"
+      ],
+      "rubro": "gas",
+      "img": "tubo-gas",
+      "desc": "Polietileno con estructura metálica, unión por termofusión.",
+      "variantes": [
+        "Tubo",
+        "Accesorio"
+      ],
+      "sello": "Apto gas"
+    },
+    {
+      "id": "tubo-gas-epoxi",
+      "nombre": "Tubo para gas epoxi",
+      "marcas": [
+        "Termia"
+      ],
+      "rubro": "gas",
+      "img": "tubo-gas-epoxi",
+      "desc": "Hierro con revestimiento epoxi, unión a rosca.",
+      "variantes": [
+        "Tubo",
+        "Accesorio"
+      ]
+    },
+    {
+      "id": "canaleta-pvc",
+      "nombre": "Canaleta de PVC",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "pluviales",
+      "img": "canaleta-pvc",
+      "desc": "Canaleta domiciliaria con soportes.",
+      "variantes": [
+        "Tira 3 m"
+      ]
+    },
+    {
+      "id": "bajada-pvc",
+      "nombre": "Caño de bajada pluvial",
+      "marcas": [
+        "Estela"
+      ],
+      "rubro": "pluviales",
+      "img": "bajada-pvc",
+      "desc": "Bajadas y accesorios para canaletas.",
+      "variantes": [
+        "Tira 3 m"
+      ]
+    },
+    {
+      "id": "matafuego",
+      "nombre": "Matafuego ABC",
+      "marcas": [
+        "Centinela"
+      ],
+      "rubro": "incendio",
+      "img": "matafuego",
+      "desc": "Extintor portátil de polvo químico.",
+      "variantes": [
+        "1 kg",
+        "2,5 kg",
+        "5 kg",
+        "10 kg"
+      ]
+    },
+    {
+      "id": "matafuego-rodante",
+      "nombre": "Matafuego rodante",
+      "marcas": [
+        "Centinela"
+      ],
+      "rubro": "incendio",
+      "img": "matafuego-rodante",
+      "desc": "Extintor sobre ruedas para depósitos y obras.",
+      "variantes": [
+        "50 kg"
+      ]
+    },
+    {
+      "id": "gabinete-incendio",
+      "nombre": "Gabinete para manguera",
+      "marcas": [
+        "Centinela"
+      ],
+      "rubro": "incendio",
+      "img": "gabinete-incendio",
+      "desc": "Gabinete metálico con visor.",
+      "variantes": []
+    },
+    {
+      "id": "manguera-incendio",
+      "nombre": "Manguera para incendio",
+      "marcas": [
+        "Centinela"
+      ],
+      "rubro": "incendio",
+      "img": "manguera-incendio",
+      "desc": "Manguera con uniones, lanzas y boquillas.",
+      "variantes": [
+        "Manguera",
+        "Lanza",
+        "Boquilla"
+      ]
+    },
+    {
+      "id": "valvula-teatro",
+      "nombre": "Válvula tipo teatro",
+      "marcas": [
+        "Centinela"
+      ],
+      "rubro": "incendio",
+      "img": "valvula-teatro",
+      "desc": "Válvula para la red de incendio.",
+      "variantes": []
+    },
+    {
+      "id": "tanque-reserva",
+      "nombre": "Tanque de reserva",
+      "marcas": [
+        "Ceibo"
+      ],
+      "rubro": "tanques-bombas",
+      "img": "tanque-reserva",
+      "desc": "Tanque tricapa para reserva de agua.",
+      "variantes": [
+        "500 L",
+        "750 L",
+        "1100 L"
+      ]
+    },
+    {
+      "id": "bomba-periferica",
+      "nombre": "Bomba periférica",
+      "marcas": [
+        "Aguavía"
+      ],
+      "rubro": "tanques-bombas",
+      "img": "bomba-periferica",
+      "desc": "Para elevar agua al tanque.",
+      "variantes": [
+        "0,5 HP",
+        "1 HP"
+      ]
+    },
+    {
+      "id": "bomba-centrifuga",
+      "nombre": "Bomba centrífuga",
+      "marcas": [
+        "Aguavía"
+      ],
+      "rubro": "tanques-bombas",
+      "img": "bomba-centrifuga",
+      "desc": "Para mayor caudal de agua.",
+      "variantes": [
+        "1 HP",
+        "1,5 HP"
+      ]
+    },
+    {
+      "id": "inodoro",
+      "nombre": "Inodoro y bidet",
+      "marcas": [
+        "Ceibo"
+      ],
+      "rubro": "bano",
+      "img": "inodoro",
+      "desc": "Línea de loza blanca de diseño moderno.",
+      "variantes": [
+        "Inodoro largo",
+        "Inodoro corto",
+        "Bidet"
+      ]
+    }
+  ],
+  "obras": {
+    "_nota": "VALORES DE EJEMPLO para la demostración. En un proyecto real, cada 'por_m2' sale de los estándares del negocio. 'desperdicio' en %. 'decimales': 0 redondea hacia arriba a enteros, 1 a décimas.",
+    "demo": true,
+    "lista": [
+      {
+        "id": "pared",
+        "nombre": "Pared de ladrillo hueco",
+        "corto": "Pared",
+        "icono": "i-ladrillos",
+        "detalle": "Ladrillo hueco de 12 cm, con mortero de asiento.",
+        "medidas": [
+          "Largo de la pared",
+          "Alto"
+        ],
+        "aberturas": true,
+        "desperdicio": 5,
+        "materiales": [
+          {
+            "nombre": "Ladrillo hueco 12×18×33",
+            "unidad": "unidad",
+            "plural_unidad": "unidades",
+            "por_m2": 16,
+            "decimales": 0
+          },
+          {
+            "nombre": "Cemento",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.12,
+            "decimales": 0
+          },
+          {
+            "nombre": "Cal aérea hidratada",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.2,
+            "decimales": 0
+          },
+          {
+            "nombre": "Arena",
+            "unidad": "m³",
+            "plural_unidad": "m³",
+            "por_m2": 0.03,
+            "decimales": 1
+          }
+        ]
+      },
+      {
+        "id": "revoque",
+        "nombre": "Revoque grueso y fino",
+        "corto": "Revoque",
+        "icono": "i-llana",
+        "detalle": "Una cara de pared, grueso a la cal y fino.",
+        "medidas": [
+          "Largo de la pared",
+          "Alto"
+        ],
+        "aberturas": true,
+        "desperdicio": 10,
+        "materiales": [
+          {
+            "nombre": "Cal aérea hidratada",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.3,
+            "decimales": 0
+          },
+          {
+            "nombre": "Cemento",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.08,
+            "decimales": 0
+          },
+          {
+            "nombre": "Arena",
+            "unidad": "m³",
+            "plural_unidad": "m³",
+            "por_m2": 0.025,
+            "decimales": 1
+          },
+          {
+            "nombre": "Revoque fino listo",
+            "unidad": "bolsa",
+            "plural_unidad": "bolsas",
+            "por_m2": 0.15,
+            "decimales": 0
+          }
+        ]
+      },
+      {
+        "id": "contrapiso",
+        "nombre": "Contrapiso de 10 cm",
+        "corto": "Contrapiso",
+        "icono": "i-capas",
+        "detalle": "Contrapiso de cascote de 10 cm de espesor.",
+        "medidas": [
+          "Largo",
+          "Ancho"
+        ],
+        "aberturas": false,
+        "desperdicio": 5,
+        "materiales": [
+          {
+            "nombre": "Cemento",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.3,
+            "decimales": 0
+          },
+          {
+            "nombre": "Cal aérea hidratada",
+            "unidad": "bolsa de 25 kg",
+            "plural_unidad": "bolsas de 25 kg",
+            "por_m2": 0.3,
+            "decimales": 0
+          },
+          {
+            "nombre": "Arena",
+            "unidad": "m³",
+            "plural_unidad": "m³",
+            "por_m2": 0.04,
+            "decimales": 1
+          },
+          {
+            "nombre": "Cascote",
+            "unidad": "m³",
+            "plural_unidad": "m³",
+            "por_m2": 0.08,
+            "decimales": 1
+          }
+        ]
+      },
+      {
+        "id": "ceramico",
+        "nombre": "Piso o revestimiento cerámico",
+        "corto": "Cerámico",
+        "icono": "i-baldosas",
+        "detalle": "Colocación con adhesivo y pastina.",
+        "medidas": [
+          "Largo",
+          "Ancho"
+        ],
+        "aberturas": false,
+        "desperdicio": 10,
+        "materiales": [
+          {
+            "nombre": "Cerámico o porcellanato",
+            "unidad": "m²",
+            "plural_unidad": "m²",
+            "por_m2": 1,
+            "decimales": 1
+          },
+          {
+            "nombre": "Adhesivo para cerámicos",
+            "unidad": "bolsa de 30 kg",
+            "plural_unidad": "bolsas de 30 kg",
+            "por_m2": 0.2,
+            "decimales": 0
+          },
+          {
+            "nombre": "Pastina",
+            "unidad": "kg",
+            "plural_unidad": "kg",
+            "por_m2": 0.3,
+            "decimales": 0
+          }
+        ]
+      },
+      {
+        "id": "techo",
+        "nombre": "Impermeabilizar un techo",
+        "corto": "Techo",
+        "icono": "i-techo",
+        "detalle": "Elegí el sistema de impermeabilización.",
+        "medidas": [
+          "Largo",
+          "Ancho"
+        ],
+        "aberturas": false,
+        "desperdicio": 10,
+        "opciones": [
+          {
+            "nombre": "Membrana asfáltica en rollo",
+            "materiales": [
+              {
+                "nombre": "Membrana asfáltica",
+                "unidad": "rollo de 10 m²",
+                "plural_unidad": "rollos de 10 m²",
+                "por_m2": 0.1,
+                "decimales": 0
+              },
+              {
+                "nombre": "Imprimación asfáltica",
+                "unidad": "litro",
+                "plural_unidad": "litros",
+                "por_m2": 0.3,
+                "decimales": 0
+              }
+            ]
+          },
+          {
+            "nombre": "Membrana líquida",
+            "materiales": [
+              {
+                "nombre": "Membrana líquida acrílica",
+                "unidad": "balde de 20 kg",
+                "plural_unidad": "baldes de 20 kg",
+                "por_m2": 0.05,
+                "decimales": 0
+              },
+              {
+                "nombre": "Venda o malla de refuerzo",
+                "unidad": "m²",
+                "plural_unidad": "m²",
+                "por_m2": 0.1,
+                "decimales": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
